@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         String sumaString;
         sumaString = Integer.toString(resultadoSuma);
 
-        Log.d("Mis_resultados", sumaString.toString());
+        Log.d("Mis_resultados","suma "+ sumaString.toString());
         txtSuma = findViewById(R.id.textView21);
         txtSuma.setText(sumaString);
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         resultadoResta = x - y;
         String restaString;
         restaString = Integer.toString(resultadoResta);
-        Log.d("Mis_resultados", restaString.toString());
+        Log.d("Mis_resultados","resta "+restaString.toString());
         txtResta = findViewById(R.id.textView22);
         txtResta.setText(restaString);
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         resultadoMultiplicacion = x*y;
         String multiplicacionString;
         multiplicacionString = Integer.toString(resultadoMultiplicacion);
-        Log.d("Mis_resultados", multiplicacionString.toString());
+        Log.d("Mis_resultados","multiplicacion "+ multiplicacionString.toString());
         txtMultiplicacion = findViewById(R.id.textView23);
         txtMultiplicacion.setText(multiplicacionString);
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         resultadoDivision = x/y;
         String divisionString;
         divisionString = Integer.toString(resultadoDivision);
-        Log.d("Mis_resultados", divisionString.toString());
+        Log.d("Mis_resultados", "division "+divisionString.toString());
         txtDivision = findViewById(R.id.textView24);
         txtDivision.setText(divisionString);
 
