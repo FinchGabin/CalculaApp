@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculaApp</string>
+    <string name="resultado_suma">SumaXd</string>
+    <string name="resultado_resta">RestaXd</string>
+    <string name="resultado_multiplicacion">MultiplicacionXd</string>
+    <string name="resultado_division">DivisionXd</string>
+
+
+</resources>
